@@ -1,0 +1,65 @@
+.pink{
+    background-color: #F8698E;
+    height: 40px;
+}
+.header{
+    
+    height: 100px;
+    clear: both;
+}
+.nav-bar{
+    clear:both;
+    overflow: hidden;
+    margin: 10px;
+   
+}
+.nav{
+    float: right;
+    padding: 2rem;
+
+    
+}
+.logo{
+    float: left;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.sign-up-button{
+    padding: 4px 8px;
+    border: 0 none;
+    border-radius: 4px;  
+}
+.sign-up-button:hover{
+    transform: scale(1.5);
+    transition-duration: 2s;
+    
+}
+
+.nav ul li{
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    list-style: none;
+}
+.nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+.search{
+    display: inline-block;
+    width: 100%;
+    padding: 4px 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.search-box{
+    width:100%;
+    padding: 8px 12px;
+    display: block;
+    border-radius: 10px;
+    border: 1px solid #A3CB78;
+    text-align: left;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}

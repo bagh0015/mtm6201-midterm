@@ -7,42 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Offrang Project</title>
     <link rel="stylesheet" href="css/main.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
 <body>
-     <div class="pink"></div>
-      <div class="header">
-        <div class="nav-bar">
-         <div class="logo">
-                <img src="Logo.svg" alt="Offrang" width=" 120px">
-        </div>
-            
-            <div class="nav">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><div class="sign-up-button">
-                        <button class="sign-up">sign-up</button>
-                    </div>
-                    </li>
-                </ul>
-                    
-            </div>
+  <!-- The container div to define a container element that contains other elements -->
+       <div class="container"></div>
+            <nav class="navbar">
            
-        </div>
-        <div class="search">
-            <input type="text" class="search-box" placeholder=" search">
-        </div>
-            </div>
-
+            </nav>
+            
             <div class="slider">
-                <div class="images">
-                    <input type="radio"name="slide" id="img1" checked>
-                    <input type="radio"name="slide" id="img2">
-                    <input type="radio"name="slide" id="img3">
-                    <img src="images/apple.jpg" class="m1" alt="img1">
-                    <img src="images/plants and pots.jpg" class="m2" alt="img2">
-                    <img src="images/dishes.jpg" class="m3" alt="img3">
+                <img src="images/slide-1.png" alt="apple">
+            </div>
                 </div>
                 <div class="dots">
                     <label for="img1"></label>
@@ -57,7 +35,7 @@
                     <img src="png/fashion.png" alt="">
                 </div>
                 <div class="cat">
-                    <img src="png/Wooden.png" alt="">
+                    <img src="png/speaker.png" alt="">
                 </div>
                 <div class="cat">
                 <img src="png/Dairy.png" alt="">
@@ -65,11 +43,64 @@
                 <div class="cat">
                 <img src="png/Running-shoes.png" alt="">
             </div>
+                <div class="cat"> 
+                <img src="png/Electronics.png" alt="">
+            </div>
           </div> 
-          <div class="banner1"></div> 
-        <div class="title"></div>
-      <div class="banner2"></div>
-     <div class="footer"></div>
+          
+          <section class="green-ad">
+          <div class="banner1">
+              <div class="column left"><img src="images/coffee.jpg" alt="coffee beans"></div>
+              <div class="column middle"><img src="images/Capture.jpg" alt="discount ad"></div>
+              <div class="column right"><img src="images/Discount.jpg" alt="discount ad"></div>
+            </div>
+          </section>
+          
+        <div class="title">
+            <div class="text1">
+              <h2>Chosen by people</h2>
+              <p>ypesetting industry. Lorem Ipsum has been 
+              the industry's standard dummy text ever since the 1500s,
+               when an unknown printer took a galley of type and scrambled it 
+               to make a type specimen book. It has survived not only 
+               five centuries, but also the leap into electronic typesetting,
+            </p>
+          </div>
+            <div class="text1">
+              <h2>Selected companies</h2>
+             <p>ypesetting industry. Lorem Ipsum has been 
+              the industry's standard dummy text ever since the 1500s,
+               when an unknown printer took a galley of type and scrambled it 
+               to make a type specimen book. It has survived not only 
+               five centuries, but also the leap into electronic typesetting,</p>
+            </div>
+          </div>
+      <div class="shipping">
+      <h1 >Immediate Shipping </h1>
+    </div>
+      <!----- Banner 2  is an image slider that contain a diffrent product ------->
+        <section class="image-slider">
+          <button class="pre-btn"><img src="png/arrow.png" alt="arrow to back item"></button>
+			    <button class="nxt-btn"><img src="png/arrow.png" alt="arrow to next item"></button>
+          <div class="b2-images">
+          <img class="banner2-img" src="png/Guitar.png" alt="Guitar">
+          <img class="banner2-img" src="png/airpods.png" alt="airpods">
+          <img class="banner2-img" src="png/Electronics.png" alt="headphone">
+          <img class="banner2-img" src="png/Cooking.png" alt="pan">
+          <img class="banner2-img" src="png/Wooden.png" alt="wooden chair">
+          <img class="banner2-img" src="png/Running-shoes.png" alt="running shoes">
+        </div>
+        </section>
+      
+      <!-- footer section -->
+          <footer>
+         </footer>
 
+     </div>
+    </div> 
+    
+     <script src="js/nav.js"></script>
+     <script src="js/footer.js"></script> 
+    <script src="js/home.js"></script> 
 </body>
 </html>
