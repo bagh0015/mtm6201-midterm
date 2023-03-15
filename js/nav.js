@@ -21,12 +21,12 @@ const createNav =()=> {
             </ul>
 
         </div>
-
-    </div>
-    <div class="search">
+        <div class="search">
         <input type="text" class="search-box" placeholder=" search">
     </div>
-        </div>
+    </div>
+    
+    </div>
 
     `;
 }
