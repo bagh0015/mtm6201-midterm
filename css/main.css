@@ -271,6 +271,21 @@ footer {
 .right a.social-link img:hover {
   opacity: 1;
 }
+.image-slider {
+  height: 300px;
+  margin: 10px;
+  border-radius: 20px;
+  border-width: 5px;
+}
+.banner2-img {
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+}
+.pre-btn, .nxt-btn {
+  width: 30px;
+  height: 30px;
+}
 /* ===================small Screen ================ */
 @media (max-width: 767px) {
   .slider {
