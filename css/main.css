@@ -271,6 +271,61 @@ footer {
 .right a.social-link img:hover {
   opacity: 1;
 }
+/* ===================small Screen ================ */
+@media (max-width: 767px) {
+  .slider {
+    height: auto;
+  }
+  .dots {
+    top: 50%;
+  }
+  .dots label {
+    height: 15px;
+    width: 15px;
+    margin: 3px;
+  }
+  .categories {
+    font-size: 24px;
+    padding: 0 16px;
+  }
+  .categories .cat {
+    width: 64px;
+    height: 64px;
+    margin-left: 8px;
+    padding: 4px;
+  }
+  .categories .cat img {
+    height: 48px;
+  }
+  /*-----Green add------*/
+  .green-ad {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    grid-gap: 20px;
+  }
+  .banner1 {
+    flex-direction: column;
+  }
+  .banner1 .column {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .title {
+    grid-template-columns: 1fr;
+  }
+  .text1 h2{
+  font-size: 2rem;
+  padding: 10px;
+}
+.text1 p {
+  font-size: 1rem;
+  padding: 10px;
+}
+.shipping h1 {
+  font-size: 2rem;
+  margin: 20px;
+}
+}
 
 
 
