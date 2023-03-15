@@ -151,3 +151,37 @@ h1{
         margin-left: 100px;
     
       }
+      @media only screen and (max-width: 600px) {
+        .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        }
+        .service-item {
+          width: 100%;
+          margin-bottom: 40px;
+      }
+      .text-services,
+      .img-about {
+        width: 100%;
+        margin: 0;
+      
+      }
+      
+      .img-about img {
+        height: auto;
+        max-width: 100%;
+        margin-bottom: 20px;
+      }
+      h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        padding: 20px 0;
+        text-align: center;
+      }
+      p {
+        margin-bottom: 20px;
+        text-align: left;
+        margin-left: 10px 10px;
+      }
+      }
